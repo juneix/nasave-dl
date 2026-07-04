@@ -49,11 +49,11 @@
   <table>
     <tr>
       <td align="center">
-        <img src="./pic/wechat.webp" width="128" /><br/>
+        <img src="./wechat.webp" width="128" /><br/>
         <sub>微信</sub>
       </td>
       <td align="center">
-        <img src="./pic/alipay.webp" width="128" /><br/>
+        <img src="./alipay.webp" width="128" /><br/>
         <sub>支付宝</sub>
       </td>
     </tr>
@@ -63,10 +63,6 @@
 
 ## 🚀 快速开始
 
-推荐 **Docker** 或 **uv** 方式在 NAS、VPS 部署，它们能自动处理依赖且稳定性最高。
-
----
-
 ### 🐳 方式一：Docker 部署 (推荐，适合 NAS)
 官方镜像已发布至 GitHub 和 Docker hub，支持 `x64` 和 `arm64` 架构。
 
@@ -74,7 +70,8 @@
 services:
   nasave-dl:
     image: ghcr.io/juneix/nasave-dl
-    # 国内加速源 docker.1ms.run/juneix/nasave-dl
+    # DockerHub 源: juneix/nasave-dl
+    # 国内加速源: docker.1ms.run/juneix/nasave-dl
     container_name: nasave-dl
     network_mode: host # 使用 Host 网络
     restart: always
