@@ -9,7 +9,7 @@
 flowchart LR
     A[纳存下载] --> B[订阅入库]
     B --> C[Emby/Jellyfin 服务器]
-    C --> D[EmbyX客户端]
+    C --> D[EmbyX 客户端]
 ```
 
 ⚠️ 音乐下载因为版权问题比较繁琐，暂不考虑整合。  
