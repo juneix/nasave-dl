@@ -4,7 +4,7 @@
 ![nasave-dl](./nasave-dl.webp)
 
 「**纳存下载**」是运行在 NAS 上的多合一媒体下载服务器，通过快捷指令或订阅功能，一键将网络资源保存到 NAS，自动整理归档，完美兼容飞牛影视/相册、Emby、Immich 等媒体库的元数据。
-- 纳存下载的 NFO 专为 EmbyX 定制优化，程序已内置 ➡️ [EmbyX](https://github.com/juneix/EmbyX)
+- 纳存下载的 NFO 专为 EmbyX 定制优化，程序已内置。更多介绍请跳转 ➡️ [EmbyX](https://github.com/juneix/EmbyX/blob/main/README_zh.md))
 ```mermaid
 flowchart LR
     A[纳存下载] --> B[订阅入库]
