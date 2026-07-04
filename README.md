@@ -73,7 +73,7 @@ flowchart LR
 
 ## 🚀 快速开始
 
-### 🐳 方式一：Docker 部署 (推荐，适合 NAS)
+### 🐳 Docker 部署 (推荐，适合 NAS)
 官方镜像已发布至 GitHub 和 Docker hub，支持 `x64` 和 `arm64` 架构。
 
 ```
@@ -91,5 +91,5 @@ services:
     volumes:
       - ./data:/app/data # 配置文件、cookies 文件等
       - /volume1/downloads:/downloads # 下载文件夹
-      - /etc/machine-id:/host/etc/machine-id:ro # 宿主机机器码挂载
+      - /etc/machine-id:/host/etc/machine-id:ro # 机器码挂载
 ```
